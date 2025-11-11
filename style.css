@@ -1,1 +1,19 @@
 
+.flexbox {
+    display: flex;
+    border: 2px solid brown;
+    padding: 20px;
+}
+
+.item{
+    border: 2px solid purple;
+    padding: 20px;
+}
+
+#box1{
+    justify-content: space-around;
+}
+
+#box1item{
+    width: 200px;
+}
