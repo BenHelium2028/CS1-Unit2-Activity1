@@ -1,19 +1,76 @@
 
+/*genral to all boxes & items*/
+
 .flexbox {
     display: flex;
     border: 2px solid brown;
     padding: 20px;
+    /* margin: 20px; */
 }
 
 .item{
     border: 2px solid purple;
+    /*padding: 20px; */
+}
+
+/*section 1*/
+
+.box1item{
+    width: 300px;
+    margin: 20px;
     padding: 20px;
 }
 
 #box1{
+    background-color: blanchedalmond;
     justify-content: space-around;
 }
 
-#box1item{
-    width: 200px;
+/*section 2*/
+
+.box2item {
+    padding: 1px;
+    flex-basis: 250%;
+}
+
+.fourboxes {
+    padding: 20px;
+}
+
+#box2 {
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+/*section 3*/
+
+.box3item {
+    margin: 2px;
+}
+
+#box3 {
+    background-color:bisque;
+    flex-direction: column;
+}
+
+/*section 4*/
+
+.box4item {
+    padding: 20px;
+}
+
+#box4{
+ justify-content: space-around;
+}
+
+#nestedbox1 {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+/*section 5*/
+
+#box5{
+
 }
