@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+body {
+    font-family: 'Eater', Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 179, 181);
+}
+
+button {
+    font-family: 'Eater', Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 12%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+}
 
 /*genral to all boxes & items*/
 
@@ -35,6 +53,24 @@
 
 .fourboxes {
     padding: 20px;
+}
+
+/* Center image and button vertically for section 2 boxes */
+.fourboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fourboxes img {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+.fourboxes button {
+    margin-top: 10px;
 }
 
 #box2 {
